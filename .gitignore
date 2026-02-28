@@ -1,3 +1,23 @@
-# Godot 4+ specific ignores
+# Archivos temporales de Godot 4.x
 .godot/
-/android/
+
+# Archivos temporales de Godot 3.x
+.import/
+export_preset.cfg
+
+# Binarios y ejecutables (Lo que pesa +100MB)
+*.exe
+*.zip
+*.apk
+*.ipa
+*.app
+*.linuxbsd
+*.x86_64
+
+# Archivos de configuración local de editores
+.vscode/
+.editorconfig
+
+# Archivos de sistema
+Thumbs.db
+.DS_Store
