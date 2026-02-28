@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://xec07hck4i8a"
+path="res://.godot/imported/Breaking the Habit (Official Music Video) [HD UPGRADE] – Linkin Park [v2H4l9RpkwM].mp3-358e439f57aa6006f73b7a1af847d4e5.mp3str"
+
+[deps]
+
+source_file="res://Music and sounds/Breaking the Habit (Official Music Video) [HD UPGRADE] – Linkin Park [v2H4l9RpkwM].mp3"
+dest_files=["res://.godot/imported/Breaking the Habit (Official Music Video) [HD UPGRADE] – Linkin Park [v2H4l9RpkwM].mp3-358e439f57aa6006f73b7a1af847d4e5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

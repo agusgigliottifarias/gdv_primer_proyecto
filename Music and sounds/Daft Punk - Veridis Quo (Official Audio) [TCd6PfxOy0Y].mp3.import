@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmv6a0ytfs3rb"
+path="res://.godot/imported/Daft Punk - Veridis Quo (Official Audio) [TCd6PfxOy0Y].mp3-a3dd84b37636ddb743010160460fb836.mp3str"
+
+[deps]
+
+source_file="res://Music and sounds/Daft Punk - Veridis Quo (Official Audio) [TCd6PfxOy0Y].mp3"
+dest_files=["res://.godot/imported/Daft Punk - Veridis Quo (Official Audio) [TCd6PfxOy0Y].mp3-a3dd84b37636ddb743010160460fb836.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

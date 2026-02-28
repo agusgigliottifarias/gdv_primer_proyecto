@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cyl7pqensw5m7"]
+
+[ext_resource type="Script" uid="uid://olkv207nn7v1" path="res://Scripts/ui.gd" id="1_nxvpl"]
+[ext_resource type="Texture2D" uid="uid://bxwl7qrnmews" path="res://Assets/objects_/coin_.png" id="1_w371h"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1697961960]
+script = ExtResource("1_nxvpl")
+
+[node name="Control" type="Control" parent="." unique_id=621731925]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Node2D" type="Node2D" parent="Control" unique_id=236516924]
+position = Vector2(57, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/Node2D" unique_id=894735289]
+position = Vector2(-33, 54)
+scale = Vector2(4.53125, 4.53125)
+texture = ExtResource("1_w371h")
+hframes = 12
+
+[node name="Label" type="Label" parent="Control" unique_id=452212575]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 1.0
+offset_right = 143.0
+offset_bottom = 104.0
+theme_override_font_sizes/font_size = 75
+text = "00"

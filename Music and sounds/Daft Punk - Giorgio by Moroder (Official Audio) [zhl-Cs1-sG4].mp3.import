@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bihqd7rlnk88q"
+path="res://.godot/imported/Daft Punk - Giorgio by Moroder (Official Audio) [zhl-Cs1-sG4].mp3-5d87e93b7e61c873327e0c43140b4164.mp3str"
+
+[deps]
+
+source_file="res://Music and sounds/Daft Punk - Giorgio by Moroder (Official Audio) [zhl-Cs1-sG4].mp3"
+dest_files=["res://.godot/imported/Daft Punk - Giorgio by Moroder (Official Audio) [zhl-Cs1-sG4].mp3-5d87e93b7e61c873327e0c43140b4164.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
