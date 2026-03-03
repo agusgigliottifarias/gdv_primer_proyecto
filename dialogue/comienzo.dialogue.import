@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dreid57rpu036"
+path="res://.godot/imported/comienzo.dialogue-47590fe603dd9cfc8818aca182d5ac5e.tres"
+
+[deps]
+
+source_file="res://dialogue/comienzo.dialogue"
+dest_files=["res://.godot/imported/comienzo.dialogue-47590fe603dd9cfc8818aca182d5ac5e.tres"]
+
+[params]
+
+defaults=true
