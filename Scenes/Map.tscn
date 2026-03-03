@@ -1,13 +1,14 @@
 [gd_scene format=4 uid="uid://b1sppss4e4n1h"]
 
 [ext_resource type="Texture2D" uid="uid://bakxyfpwpxqay" path="res://Assets/midground_/spring_.png" id="1_s486e"]
+[ext_resource type="Script" uid="uid://dw4lgxpyi84cs" path="res://principal.gd" id="1_xicox"]
 [ext_resource type="Texture2D" uid="uid://c5c0665eq4wcb" path="res://Assets/background_/sky_.png" id="2_5t7yc"]
 [ext_resource type="PackedScene" uid="uid://bn1qb3mju7c6t" path="res://Scenes/Player.tscn" id="2_7yn8b"]
-[ext_resource type="PackedScene" uid="uid://dfexomg6cjwxt" path="res://Scenes/Coin.tscn" id="3_etk83"]
+[ext_resource type="PackedScene" uid="uid://lmpbf4p1gkey" path="res://Scenes/Coin.tscn" id="3_etk83"]
 [ext_resource type="Texture2D" uid="uid://3oibobno88pn" path="res://Assets/objects_/staticObjects_.png" id="3_ngcqm"]
 [ext_resource type="PackedScene" uid="uid://cyl7pqensw5m7" path="res://Scenes/UI.tscn" id="4_qumfl"]
 [ext_resource type="PackedScene" uid="uid://dmui2n1pugb8l" path="res://Scenes/Bee.tscn" id="6_00287"]
-[ext_resource type="AudioStream" path="res://Music and sounds/Gdv_Arpeggio.mp3" id="9_ws1hi"]
+[ext_resource type="AudioStream" uid="uid://c5rhfsdwqsnko" path="res://Music and sounds/Gdv_Arpeggio.mp3" id="9_ws1hi"]
 [ext_resource type="PackedScene" uid="uid://cwjymdjumyl5x" path="res://Scenes/Killzone.tscn" id="9_xicox"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7yn8b"]
@@ -488,6 +489,7 @@ texture = ExtResource("3_ngcqm")
 sources/0 = SubResource("TileSetAtlasSource_ws1hi")
 
 [node name="Map" type="Node2D" unique_id=242744100]
+script = ExtResource("1_xicox")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1750655233]
 position = Vector2(1, 0)
