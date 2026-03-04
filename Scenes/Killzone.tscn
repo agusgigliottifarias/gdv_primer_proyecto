@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cwjymdjumyl5x"]
 
-[ext_resource type="Script" path="res://Scenes/killzone.gd" id="1_dviv5"]
+[ext_resource type="Script" uid="uid://bcj31rgpxrwi7" path="res://Scenes/killzone.gd" id="1_dviv5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_thn0s"]
 size = Vector2(627.75, 20)

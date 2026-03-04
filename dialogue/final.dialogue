@@ -1,3 +1,23 @@
 ~ start
+Persona Misteriosa: Tienes {{Global.coins}} de monedas de oro.
 
-=> END
+- Entregar Sueldo [if Global.coins >= 10]
+	set Global.coins -= 10
+	*El escenario se vuelve negro y la persona misteriosa muestra su verdadera forma*
+	Ingresante de GDV: OH sos nustro profe
+	Profesor: Si ingresante
+	Profesor: Como has superado esta prueba ahora sos digno de saber la respuesta a esta pregunta muy [wave]Solicitada[/wave]
+	*EL ingresante se emociona*
+	Profesor: La respuesta es ...
+	Profesor: SIEMPRE HAY GDV
+	*el ingresnate se queda con dudas no entiende
+	Ingresante de GDV: Como que siempre hay GDV?
+	Profesor: Si como escuchaste SIEMPRE HAY GDV
+	Ingresante de GDV: pero como que siempre
+	Profesor: Si GDV no es un espacio, GDV esta en cada uno de las personas que integran este planeta
+	Profesor: Mientras exista al menos una persona SIEMPRE HAY GDV
+	*Despues de esas palabras Profesor, aprece un pikachu y se van*
+	*EL ingresante se queda pensando esas palabras *
+	=> END
+- Quedarse con la duda => END
+

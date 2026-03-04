@@ -1,22 +1,22 @@
-[gd_scene format=3 uid="uid://h8vdf2clt27i"]
+[gd_scene format=3 uid="uid://gka4w34oesft"]
 
-[ext_resource type="Script" uid="uid://7ltoyyxuytvh" path="res://Scripts/npc.gd" id="1_c8tqv"]
-[ext_resource type="Texture2D" uid="uid://drn7bxvdsr1bq" path="res://Assets/Sprites [Enemies]/Mushroom/Mushroom_2/Mushroom_2.png" id="2_m7bvo"]
+[ext_resource type="Script" uid="uid://crc4nenvni8pl" path="res://Scripts/npc_2.gd" id="1_4okh2"]
+[ext_resource type="Texture2D" uid="uid://drn7bxvdsr1bq" path="res://Assets/Sprites [Enemies]/Mushroom/Mushroom_2/Mushroom_2.png" id="2_7f0kf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gejva"]
-atlas = ExtResource("2_m7bvo")
+atlas = ExtResource("2_7f0kf")
 region = Rect2(0, 0, 24, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lvqg6"]
-atlas = ExtResource("2_m7bvo")
+atlas = ExtResource("2_7f0kf")
 region = Rect2(24, 0, 24, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ileeb"]
-atlas = ExtResource("2_m7bvo")
+atlas = ExtResource("2_7f0kf")
 region = Rect2(48, 0, 24, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7c57i"]
-atlas = ExtResource("2_m7bvo")
+atlas = ExtResource("2_7f0kf")
 region = Rect2(72, 0, 24, 30)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_d01td"]
@@ -42,8 +42,8 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v745g"]
 size = Vector2(53, 20)
 
-[node name="NPC" type="Area2D" unique_id=458939627 groups=["Player"]]
-script = ExtResource("1_c8tqv")
+[node name="NPC 2" type="Area2D" unique_id=458939627 groups=["Player"]]
+script = ExtResource("1_4okh2")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="." unique_id=60513951]
 sprite_frames = SubResource("SpriteFrames_d01td")
