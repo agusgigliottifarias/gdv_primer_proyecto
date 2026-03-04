@@ -2,7 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://bxifxfacudntl" path="res://Assets/Sprites [Enemies]/Bee/Bee.png" id="1_o7wem"]
 [ext_resource type="Script" uid="uid://brju7qamoku6y" path="res://Scripts/bee.gd" id="1_ug8hw"]
-[ext_resource type="AudioStream" uid="uid://daquhqvllu7fu" path="res://Music and sounds/Lost [Official Music Video] - Linkin Park [7NK_JOkuSVY].mp3" id="3_rtnth"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ug8hw"]
 atlas = ExtResource("1_o7wem")
@@ -69,7 +68,6 @@ shape = SubResource("RectangleShape2D_bjtr2")
 
 [node name="Lost[officialMusicVideo]LinkinPark[7nkJOkuSvy]" type="AudioStreamPlayer2D" parent="." unique_id=1862744067]
 position = Vector2(2, 2)
-stream = ExtResource("3_rtnth")
 volume_db = -15.0
 autoplay = true
 max_distance = 150.0

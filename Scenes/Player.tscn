@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://b6chvulewcjvu" path="res://Scripts/player.gd" id="1_kyqiw"]
 [ext_resource type="Texture2D" uid="uid://c0kwi3gqn68m6" path="res://Assets/Sprites [Enemies]/Mushroom/Mushroom_1/Mushroom_1.png" id="2_kyqiw"]
-[ext_resource type="AudioStream" uid="uid://bihqd7rlnk88q" path="res://Music and sounds/Daft Punk - Giorgio by Moroder (Official Audio) [zhl-Cs1-sG4].mp3" id="3_gntrk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gntrk"]
 atlas = ExtResource("2_kyqiw")
@@ -127,5 +126,4 @@ zoom = Vector2(3.5, 3.5)
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1590927644]
 position = Vector2(0, 4)
-stream = ExtResource("3_gntrk")
 volume_db = -10.0
