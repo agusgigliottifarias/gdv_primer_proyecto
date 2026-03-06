@@ -66,11 +66,5 @@ shape = SubResource("RectangleShape2D_bxir8")
 position = Vector2(0, 2)
 shape = SubResource("RectangleShape2D_bjtr2")
 
-[node name="Lost[officialMusicVideo]LinkinPark[7nkJOkuSvy]" type="AudioStreamPlayer2D" parent="." unique_id=1862744067]
-position = Vector2(2, 2)
-volume_db = -15.0
-autoplay = true
-max_distance = 150.0
-
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
 [connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]

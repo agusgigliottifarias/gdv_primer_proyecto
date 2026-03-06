@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="gdv_primer_proyecto"
-run/main_scene="uid://b1sppss4e4n1h"
+run/main_scene="uid://clyuxvwrejldx"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://cc7hr6ff6wtyo"
 
 [autoload]
 
@@ -23,6 +23,10 @@ Global="*uid://dh6vevn5kkqpu"
 [dialogue_manager]
 
 runtime/balloon_path="res://Scenes/Dialogue/balloon.tscn"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
@@ -73,3 +77,4 @@ locale/translations_pot_files=PackedStringArray("res://dialogue/comienzo.dialogu
 
 textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
+textures/vram_compression/import_etc2_astc=true

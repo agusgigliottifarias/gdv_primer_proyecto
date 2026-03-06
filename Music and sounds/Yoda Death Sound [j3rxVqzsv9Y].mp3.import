@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://s1ti6k1i1flo"
+path="res://.godot/imported/Yoda Death Sound [j3rxVqzsv9Y].mp3-dac68bc254bc10b6a51959d5042fa6ce.mp3str"
+
+[deps]
+
+source_file="res://Music and sounds/Yoda Death Sound [j3rxVqzsv9Y].mp3"
+dest_files=["res://.godot/imported/Yoda Death Sound [j3rxVqzsv9Y].mp3-dac68bc254bc10b6a51959d5042fa6ce.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.24
+bpm=0
+beat_count=0
+bar_beats=4

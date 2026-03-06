@@ -1,6 +1,7 @@
 extends Area2D
 
 const My_Dialogue = preload("res://dialogue/comienzo.dialogue")
+@onready var excalmacion = $"Exclamación"
 
 var is_player_close = false
 var dialogue_is_active = false
@@ -24,8 +25,10 @@ func _on_dialogue_ended(dialogue):
 
 func _on_body_entered(body: Node2D) -> void:
 	if body.name == "Player": 
+		excalmacion.visible = true
 		is_player_close = true
 
 func _on_body_exited(body: Node2D) -> void:
 	if body.name == "Player":
+		excalmacion.visible = false
 		is_player_close = false

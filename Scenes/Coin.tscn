@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bxwl7qrnmews" path="res://Assets/objects_/coin_.png" id="1_2qo34"]
 [ext_resource type="Script" uid="uid://duma0fa1vwqvq" path="res://Scripts/coin.gd" id="1_jgi06"]
+[ext_resource type="AudioStream" uid="uid://cy248lgwjbbki" path="res://Music and sounds/Mario Bros - moneda (sound effect) [Bx_X4btTrsU].mp3" id="3_wjfxq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jgi06"]
 atlas = ExtResource("1_2qo34")
@@ -110,8 +111,7 @@ frame_progress = 0.2690074
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1470511664]
 shape = SubResource("CircleShape2D_2qo34")
 
-[node name="Lost[officialMusicVideo]LinkinPark[7nkJOkuSvy]" type="AudioStreamPlayer2D" parent="." unique_id=1408373715]
-position = Vector2(197, 78)
-volume_db = -10.0
+[node name="MarioBrosMoneda(soundEffect)[bxX4BtTrsU]" type="AudioStreamPlayer" parent="." unique_id=1778611974]
+stream = ExtResource("3_wjfxq")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

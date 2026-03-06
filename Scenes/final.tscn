@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c5xdofoqnkdg4"]
+
+[ext_resource type="Script" uid="uid://cqtrkip5muu75" path="res://Scripts/final.gd" id="1_adj38"]
+[ext_resource type="Texture2D" uid="uid://d3sorrjlqcmnl" path="res://bandera.png" id="2_adj38"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v745g"]
+size = Vector2(20, 14)
+
+[node name="Final" type="Area2D" unique_id=458939627 groups=["Player"]]
+script = ExtResource("1_adj38")
+
+[node name="Bandera" type="Sprite2D" parent="." unique_id=359908677]
+position = Vector2(3.3499997, -1.8500006)
+scale = Vector2(0.07539063, 0.079296865)
+texture = ExtResource("2_adj38")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=597287190]
+position = Vector2(4, 1)
+shape = SubResource("RectangleShape2D_v745g")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
