@@ -13,7 +13,7 @@ No necesitas clonar el repositorio para probarlo. Puedes jugar la versión más 
 Este juego/herramienta fue creado para la comunidad, buscando dar una respuesta definitiva de una manera interactiva y divertida. 
 
 ### Características:
-- **Motor:** Godot Engine.
+- **Motor:** Godot Engine 4.6.1.
 - **Plataforma:** Web (HTML5).
 - **Género:** Utility / Meme / Humor.
 
